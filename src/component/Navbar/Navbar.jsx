@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"; // Import required icons
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+
 import "./Navbar.css";
 
 function Navbar() {
@@ -12,25 +14,20 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      {/* Menu Icon */}
       <div className="menu-icon" onClick={toggleMenu}>
         <FontAwesomeIcon
-          icon={isMenuOpen ? faXmark : faBars} // Toggle between bars and X icons
-          size="2x" // Adjust size
-          color="#ffff" // Icon color
+          icon={isMenuOpen ? faXmark : faBars}
+          size="2x"
+          color="#ffff"
         />
       </div>
-
-      {/* Logo */}
       <div className="logo">D's Portfolio</div>
-
-      {/* Menu Links */}
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/project">Projects</Link>
+        <Link to="/education">Education</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );
