@@ -115,4 +115,11 @@
     transform: translateY(-10px); /* Slight lift on hover */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
   }
-  
+  .self
+  {
+    width: 450px;
+    height: 700px;
+    margin-top: -200px;
+    margin-left: -50px;
+    border-radius: 30px;
+  }

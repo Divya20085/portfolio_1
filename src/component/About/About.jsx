@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons"; 
 import { faInstagram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"; 
 import { faCode } from "@fortawesome/free-solid-svg-icons"; // For LeetCode
-
+import self from '../../assets/divyaa.png';
 function About() {
   return (
     <div>
@@ -14,7 +14,9 @@ function About() {
       <div className="ico">
         <FontAwesomeIcon icon={faStar} size="5x" color="#FFD700" />
       </div>
+      
       <div className="photo">
+      <img src={self} className="self"/>
         <div className="abt-icons">
           <a href="https://www.instagram.com/divyyaaa._05/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} size="2x" className="insta" />
@@ -57,7 +59,8 @@ divya-k-529393259" target="_blank" rel="noopener noreferrer">
             <div className="card"><h1>MongoDB</h1></div>
             <div className="card"><h1>CANVA</h1></div>
          </div>
-         
+         <div className="spav"></div>
+    
 
     </div>
   );

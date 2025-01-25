@@ -1,0 +1,138 @@
+/* General Container */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.cn01 {
+  margin-top: 270px;
+  font-size: 150px;
+  text-align: center;
+  color: yellow;
+  background-color: black;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ico {
+  margin-top: -220px;
+  text-align: center;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin-top: 200px;
+    margin-left: 1300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+   
+  }
+ 
+  .fs-row {
+    display: flex;           
+    gap: 60px;               
+    justify-content: space-between;
+  }
+  
+  .fs-field {
+    flex: 1; 
+    margin-top: 50px; 
+    width: 600px;               /* Make each field take up equal space */
+  }
+  
+  .fs-input1,
+  .fs-input2 {
+    width: 270px;            
+    padding: 20px;           
+    border: 1px ;
+    background-color: rgba(96, 96, 96, 0.315);
+    box-sizing: border-box;  
+    border-radius: 10px;      
+    font-size: 16px;        
+  }
+  
+  .fs-textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(96, 96, 96, 0.315);
+  }
+  
+  .fs-input:focus,
+  .fs-textarea:focus {
+    outline: none;
+    border-color: white;
+    color: rgb(255, 253, 253);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  .fs-textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  
+  .fs-description {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 5px;
+  }
+  
+  
+  .fs-button-group {
+    text-align: center;
+  }
+  
+  .fs-button {
+    width: 600px;
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .fs-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fs-button:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+  }
+  .success-message {
+    margin-top: 500px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
+  }
+  .free h1{
+    font-size: 50px;
+    color: white;
+    font-family: "PT Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 300px;
+    margin-top: -320px;
+  }
+  .free p{
+    color: rgb(161, 161, 161);
+    margin-left: 300px;
+    font-size: 25px;
+  }
+  
+  .mail p{
+    color: rgb(161, 161, 161);
+    margin-left: 300px;
+    font-size: 25px;
+  }
