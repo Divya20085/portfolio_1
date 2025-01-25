@@ -12,7 +12,7 @@ function About() {
         <h1>ABOUT</h1>
       </div>
       <div className="ico">
-        <FontAwesomeIcon icon={faStar} size="5x" color="#FFD700" />
+        <FontAwesomeIcon icon={faStar} size="3x" color="#FFD700" />
       </div>
       
       <div className="photo">
@@ -42,14 +42,14 @@ divya-k-529393259" target="_blank" rel="noopener noreferrer">
         <div className="abt-content-2">
             <p>I'm currently pursuing a Bachelor of Engineering </p>
             <p>in Computer Science at Kongu Engineering College,</p>
-            <p>with a CGPA of 7.80 (up to the 4th semester).</p>
+            <p>with a CGPA of 8.1 (up to the 4th semester).</p>
             <p>My academic background equips me with a solid</p>
             <p>understanding of computer science fundamentals,</p>
             <p>empowering me to design and implement</p>
             <p>solutions that balance innovation, efficiency, and functionality.</p>
             
          </div>
-         <div className="abt-card">
+         <div className="abt-card1">
             <div className="card"><h1>JAVA</h1> </div>
             <div className="card"><h1>HTML</h1></div>
             <div className="card"><h1>CSS</h1></div>

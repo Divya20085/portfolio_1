@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .content {
-    margin-top: 100px; 
+    
     text-align: center;
     color: yellow; 
     background-color: black; 
@@ -13,9 +13,9 @@
     
   }
   .name h1 {
-    margin-top: 250px;
-    font-size: 300px;
-    margin-left: 900px;
+    margin-top: 200px;
+    font-size: 200px;
+    margin-left: 600px;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
@@ -24,9 +24,9 @@
   }
   
   .name h2 {
-    margin-top: -270px;
-    font-size: 300px;
-    margin-left: 400px;
+    margin-top: -200px;
+    font-size: 200px;
+    margin-left: 250px;
     font-family: "Bebas Neue", serif;
     font-weight: 500;
     font-style: normal;
@@ -37,11 +37,11 @@
     top: 0; /* Positioning the image over the text */
     left: 47%;
     transform: translateX(-50%);
-    width: 220px; /* You can adjust the size of the image */
-    height: 330px;
+    width: 150px; /* You can adjust the size of the image */
+    height: 230px;
     z-index: 0;
     border-radius: 150px;
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .icon {
     margin-top: -100px;
@@ -65,18 +65,18 @@
     font-family: "Bebas Neue", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 150px;
-    margin-left: 450px;
+    margin-left: 260px;
   }
   .loader
   {
     position: relative;
-    width: 1300px;
-    height: 7px;
+    width: 900px;
+    height: 5px;
     background: rgb(49, 49, 49);
-    margin-left: 630px;
-    margin-top: -100px;
+    margin-left: 430px;
+    margin-top: -80px;
   }
   .loader::before
   {
@@ -112,9 +112,9 @@
   }
  .abt1
  {
-  margin-top: 200px;
-  margin-left: 450px;
-  font-size: 35px;
+  margin-top: 150px;
+  margin-left: 250px;
+  font-size: 25px;
   color: rgb(134, 134, 134);
   font-family: "PT Sans", serif;
   font-weight: 600;
@@ -123,48 +123,24 @@
  }
  .abt2
  {
-  margin-top: -230px;
-  margin-left: 1250px;
-  font-size: 30px;
+  margin-top: -170px;
+  margin-left: 850px;
+  font-size: 20px;
   color: rgb(187, 186, 186);
   font-family: "PT Sans", serif;
   font-weight: 600;
   font-style: normal;
   line-height: 0.7;
  }
- .card1, .card2,.card3, .card4
- {
-  width: 600px;
-  height: 200px;
-  background-color: yellow;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top:0;
-  margin-left: 1250px;
-  
- }
- .card1{
-  margin-top: 100px;
- }
- .card2{
-  margin-top: 20px;
- }
- .card3{
-  margin-top: 20px;
- }.card4{
-  margin-top: 20px;
- }
+ 
  .loader1
  {
-   position: relative;
-   width: 1200px;
-   height: 7px;
-   background: rgb(49, 49, 49);
-   margin-left: 700px;
-   margin-top: -100px;
+  position: relative;
+  width: 900px;
+  height: 5px;
+  background: rgb(49, 49, 49);
+  margin-left: 470px;
+  margin-top: -80px;
  }
  .loader1::before
  {
@@ -202,16 +178,16 @@
   font-family: "Bebas Neue", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 150px;
-  margin-left: 450px;
+  margin-left: 270px;
 }
 
 .tilt-box-wrap1{
   margin-top: 200px;
-  margin-left: 600px;
-  width: 400px;
-  height: 400px;
+  margin-left: 350px;
+  width: 300px;
+  height: 300px;
   position: relative;
   transition: all 0.6s ease-out;
   perspective: 1000px;
@@ -268,9 +244,9 @@
 
 .tilt-box-wrap2{
   margin-top: 150px;
-  margin-left: 600px;
-  width: 400px;
-  height: 400px;
+  margin-left: 350px;
+  width: 300px;
+  height: 300px;
   position: relative;
   transition: all 0.6s ease-out;
   perspective: 1000px;
@@ -326,10 +302,10 @@
 .t_over2:nth-child(9):hover ~ .tilt-box2{ transform: rotateX(20deg) rotateY(-20deg);}
 
 .tilt-box-wrap3{
-  margin-top:-950px;
-  margin-left: 1200px;
-  width: 400px;
-  height: 400px;
+  margin-top:-750px;
+  margin-left: 900px;
+  width: 300px;
+  height: 300px;
   position: relative;
   transition: all 0.6s ease-out;
   perspective: 1000px;
@@ -386,9 +362,10 @@
 
 .tilt-box-wrap4{
   margin-top: 150px;
-  margin-left:1200px;
-  width: 400px;
-  height: 400px;
+ 
+  margin-left: 900px;
+  width: 300px;
+  height: 300px;
   position: relative;
   transition: all 0.6s ease-out;
   perspective: 1000px;
@@ -448,18 +425,18 @@
   font-family: "Bebas Neue", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 150px;
-  margin-left: 450px;
+  margin-left: 270px;
 }
 .loader2
 {
-  position: relative;
-  width: 1200px;
-  height: 7px;
-  background: rgb(49, 49, 49);
-  margin-left: 700px;
-  margin-top: -100px;
+    position: relative;
+    width: 900px;
+    height: 5px;
+    background: rgb(49, 49, 49);
+    margin-left: 490px;
+    margin-top: -80px;
 }
 .loader2::before
 {
@@ -496,41 +473,42 @@
 .hclg h2{
   color: white;
   margin-top: 100px;
-  margin-left: 450px;
-  font-size: 30px;
+  margin-left: 270px;
+  font-size: 25px;
 
 }
 .hclg h3,h4{
   color: rgb(139, 139, 139);
-  margin-left: 450px;
+  margin-left: 270px;
 }
 .hclg h4{
-  margin-top: -7px;
+  line-height: 0px;
+  margin-left: 270px;
 }
 .hclg p{
   color: white;
   margin-top: 30px;
-  margin-left: 450px;
-  font-size: 20px;
+  margin-left: 270px;
+  font-size: 17px;
 }
 .line
 {
   margin-top: 70px;
   height: 2px;;
   width: 700px;
-  margin-left: 450px;
+  margin-left: 270px;
   background:  rgb(70, 70, 70);
 }
 .hschl h2{
   color: white;
   margin-top: 100px;
-  margin-left: 450px;
-  font-size: 30px;
+  margin-left: 270px;
+  font-size: 25px;
 
 }
 .hschl h3,h4{
   color: rgb(139, 139, 139);
-  margin-left: 450px;
+  margin-left: 270px;
 }
 .hschl h4{
   margin-top: -7px;
@@ -538,19 +516,19 @@
 .hschl p{
   color: white;
   margin-top: 30px;
-  margin-left: 450px;
-  font-size: 20px;
+  margin-left: 270px;
+  font-size: 15px;
 }
 .sym h3{
   margin-top: 100px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   margin-left: -190px;
 }
 .sym h4{
-  margin-top: -70px;
+  margin-top: -60px;
   text-align: center;
-  font-size: 25px;
-  margin-left: 200px;
+  font-size: 20px;
+  margin-left: 160px;
   color: yellow;
 }

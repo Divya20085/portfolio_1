@@ -10,7 +10,7 @@ function edu() {
             <h1>EDUCATION</h1>
         </div>
         <div className="ico">
-            <FontAwesomeIcon icon={faStar} size="5x" color="#FFD700" />
+            <FontAwesomeIcon icon={faStar} size="3x" color="#FFD700" />
         </div>
         <div className="hclg">
                 <h2>Bachelor of Engineering in Computer Science</h2>
@@ -18,8 +18,8 @@ function edu() {
                  <h4>2022-2026</h4> 
                 <p>Gained a solid foundation in software development overall. 
                   Focused on building web applications.
-                  And acquired fundamental konwoledge of desgining poster with the CGPA 7.8(till 4th sem)</p>
-
+                  And acquired fundamental konwoledge of </p>
+                  <p>desgining poster with the CGPA 8.1(till 4th sem)</p>
             </div>
             <div className="line"></div>
             <div className="hschl">

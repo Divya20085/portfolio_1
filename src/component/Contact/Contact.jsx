@@ -8,7 +8,7 @@ function Contact() {
   const [state, handleSubmit] = useForm("xnnjnqgo");
 
   if (state.succeeded) {
-    return <p className="success-message">Thanks for contacting us!</p>;
+    return <p className="success-message">Thanks for contacting me!</p>;
   }
 
   return (
@@ -17,7 +17,7 @@ function Contact() {
         <h1>CONTACT</h1>
       </div>
       <div className="ico">
-        <FontAwesomeIcon icon={faStar} size="5x" color="#FFD700" />
+        <FontAwesomeIcon icon={faStar} size="3x" color="#FFD700" />
       </div>
       <div className="contact-container">
       

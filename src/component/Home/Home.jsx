@@ -30,7 +30,7 @@ function Home() {
         />
       </div>
       <div className="icon">
-        <FontAwesomeIcon icon={faStar} size="5x" color="#FFD700" /> 
+        <FontAwesomeIcon icon={faStar} size="4x" color="#FFD700" /> 
       </div>
       <div className="intro">
         <p>I'm Divya Krishnamoorthi - Skilled in Front-end development </p>
@@ -51,7 +51,7 @@ function Home() {
          <div className="abt2">
             <p>I am pursuing a Bachelor of Engineering </p>
             <p>in Computer Science at Kongu Engineering College,</p>
-            <p>with a CGPA of 7.80 (up to the 4th semester).</p>
+            <p>with a CGPA of 8.1 (up to the 4th semester).</p>
             <p>My academic background equips me with a solid</p>
             <p>understanding of computer science fundamentals,</p>
             <p>empowering me to design and implement</p>
@@ -138,7 +138,8 @@ function Home() {
                  <h4>2022-2026</h4> 
                 <p>Gained a solid foundation in software development overall. 
                   Focused on building web applications.
-                  And acquired fundamental konwoledge of desgining poster with the CGPA 7.8(till 4th sem)</p>
+                  And acquired fundamental konwoledge</p>
+                  <p> of desgining poster with the CGPA 8.1(till 4th sem)</p>
 
             </div>
             <div className="line"></div>

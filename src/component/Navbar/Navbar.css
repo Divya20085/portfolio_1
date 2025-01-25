@@ -22,11 +22,11 @@ body {
     height: 120px; /* Set height for the navbar */
   }
   .logo {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(219, 219, 211); 
-    margin-right: 1150px;
-    margin-top: 30px;
+    margin-right: 700px;
+    margin-top: 15px;
   }
 
   .menu-icon {
@@ -35,16 +35,17 @@ body {
     align-items: center;
     cursor: pointer;
     margin-right: auto; 
-    margin-left: 400px;
-    margin-top: 30px;
-    
+    margin-left: 250px;
+    margin-top: 10px;
+   
+ 
   }
   
   .menu-icon svg {
     transition: transform 0.3s ease, fill 0.3s ease;
     fill: grey; 
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 30px;
   }
   
   .menu-icon:hover svg {
@@ -59,10 +60,10 @@ body {
     background-color: black; 
     position: absolute;
     top: 130px; 
-    left: 400px;
+    left: 270px;
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .menu.open {
@@ -80,7 +81,7 @@ body {
     background-color: black;
     color: yellow;
     padding: 13px 25px;
-    font-size: 30px;
+    font-size: 23px;
 
   }
   

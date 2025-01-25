@@ -5,7 +5,7 @@
 
 .cn01 {
   margin-top: 270px;
-  font-size: 150px;
+  font-size: 100px;
   text-align: center;
   color: yellow;
   background-color: black;
@@ -15,14 +15,14 @@
 }
 
 .ico {
-  margin-top: -220px;
+  margin-top: -150px;
   text-align: center;
 }
 
 .contact-container {
-    max-width: 500px;
+    max-width: 400px;
     margin-top: 200px;
-    margin-left: 1300px;
+    margin-left: 900px;
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 20px;
@@ -31,20 +31,21 @@
  
   .fs-row {
     display: flex;           
-    gap: 60px;               
+    gap: 0px;               
     justify-content: space-between;
   }
   
   .fs-field {
     flex: 1; 
-    margin-top: 50px; 
-    width: 600px;               /* Make each field take up equal space */
+    margin-top: 20px; 
+    width: 400px;               /* Make each field take up equal space */
   }
   
   .fs-input1,
   .fs-input2 {
-    width: 270px;            
-    padding: 20px;           
+    color: white;
+    width: 190px;            
+    padding: 15px;           
     border: 1px ;
     background-color: rgba(96, 96, 96, 0.315);
     box-sizing: border-box;  
@@ -56,7 +57,7 @@
     margin-bottom: 20px;
     width: 100%;
     color: white;
-    padding: 10px;
+    padding: 20px;
     font-size: 14px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -90,9 +91,9 @@
   }
   
   .fs-button {
-    width: 600px;
+    width: 400px;
     background-color: yellow;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 16px;
     border: none;
@@ -110,10 +111,10 @@
     cursor: not-allowed;
   }
   .success-message {
-    margin-top: 500px;
+    margin-top: 350px;
     margin-left: 100px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     color: yellow;
   }
   .free h1{
@@ -122,17 +123,17 @@
     font-family: "PT Sans", serif;
     font-weight: 600;
     font-style: normal;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: -320px;
   }
   .free p{
     color: rgb(161, 161, 161);
-    margin-left: 300px;
-    font-size: 25px;
+    margin-left: 200px;
+    font-size: 20px;
   }
   
   .mail p{
     color: rgb(161, 161, 161);
-    margin-left: 300px;
-    font-size: 25px;
+    margin-left: 200px;
+    font-size: 20px;
   }

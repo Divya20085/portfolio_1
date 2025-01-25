@@ -17,7 +17,7 @@ function Navbar() {
       <div className="menu-icon" onClick={toggleMenu}>
         <FontAwesomeIcon
           icon={isMenuOpen ? faXmark : faBars}
-          size="2x"
+          size="lg"
           color="#ffff"
         />
       </div>

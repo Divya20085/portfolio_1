@@ -3,7 +3,7 @@
 
 .abt01 {
   margin-top: 270px;
-  font-size: 150px;
+  font-size: 100px;
   text-align: center;
   color: yellow;
   background-color: black;
@@ -13,32 +13,32 @@
 }
 
 .ico {
-  margin-top: -220px;
+  margin-top: -150px;
   text-align: center;
 }
 
 .photo {
-  width: 450px;
-  height: 600px;
+  width: 300px;
+  height: 400px;
   background-color: yellow;
-  margin-left: 500px;
-  margin-top: 400px;
+  margin-left: 300px;
+  margin-top: 300px;
   border-radius: 15px;
   position: relative; /* Ensure the container can position its children */
 }
 .abt-icons a {
     display: inline-block; /* Ensure proper spacing */
     margin: 10px; /* Add spacing between icons */
-    font-size: 1em; /* Base size */
+    font-size: 0.9em; /* Base size */
     transition: font-size 0.3s ease; /* Smooth size increase effect */
   }
   
   .abt-icons a:hover {
-    font-size: 1.5em; /* Increase size on hover */
+    font-size: 1.2em; /* Increase size on hover */
   }
 .insta {
   position: absolute;
-  bottom: 35px;
+  bottom: 20px;
   left: 25%; 
   transform: translateX(-50%); /* Adjust for centering */
   color: black;
@@ -46,29 +46,29 @@
 
 .leet {
     position: absolute;
-    bottom: 35px; /* 20px from the bottom of the photo card */
-    left: 80%; /* Center horizontally */
+    bottom: 20px; /* 20px from the bottom of the photo card */
+    left: 78%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     color: black;
   }
   .git{
     position: absolute;
-    bottom: 35px; /* 20px from the bottom of the photo card */
+    bottom: 20px; /* 20px from the bottom of the photo card */
     left: 43%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     color: black;
   }
   .link {
     position: absolute;
-    bottom: 35px; /* 20px from the bottom of the photo card */
+    bottom: 20px; /* 20px from the bottom of the photo card */
     left: 60%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     color: black;
   }
   .abt-content-1{
-    margin-top:-830px;
-  margin-left: 1170px;
-  font-size: 35px;
+  margin-top:-530px;
+  margin-left: 850px;
+  font-size: 23px;
   color: rgb(134, 134, 134);
   font-family: "PT Sans", serif;
   font-weight: 400;
@@ -77,32 +77,32 @@
   }
   .abt-content-2
   {
-    margin-top:100px;
-  margin-left: 1180px;
-  font-size: 30px;
+  margin-top:100px;
+  margin-left: 850px;
+  font-size: 20px;
   color: rgb(187, 186, 186);
   font-family: "PT Sans", serif;
   font-weight: 500;
   font-style: normal;
   line-height: 0.7;
   }
-  .abt-card {
+  .abt-card1 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
-    gap: 140px; /* Space between cards */
-    margin-top: 300px; /* Center the grid */
-    max-width: 1600px;
-   height: 300px; /* Restrict grid width */
-    padding: 20px;
-    padding-top: 100px; 
-    margin-left: 400px;/* Add space above all cards */
-  }
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px; /* Reduced the gap between cards */
+    width: 140px; /* Reduced card width */
+    padding: 10px; /* Reduced padding */
+    padding-top: 5px; /* Reduced top padding */
+    margin-top: 150px; /* Adjusted margin for spacing */
+    margin-left: 250px; /* Adjusted margin for alignment */
+}
+
   
   
   .card {
     background-color: yellow; /* Light gray background */
     color: #333; /* Text color */
-    font-size: 1.2em; /* Font size for text */
+    font-size: 0.9em; /* Font size for text */
     text-align: center; /* Center text */
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
@@ -117,9 +117,9 @@
   }
   .self
   {
-    width: 450px;
-    height: 700px;
-    margin-top: -200px;
-    margin-left: -50px;
+    width: 280px;
+    height: 450px;
+    margin-top: -110px;
+    margin-left: -20px;
     border-radius: 30px;
   }
