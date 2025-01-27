@@ -138,8 +138,7 @@ function Home() {
                  <h4>2022-2026</h4> 
                 <p>Gained a solid foundation in software development overall. 
                   Focused on building web applications.
-                  And acquired fundamental konwoledge</p>
-                  <p> of desgining poster with the CGPA 8.1(till 4th sem)</p>
+                  And acquired fundamental knowledge of desgining poster with the CGPA 8.1(till 4th sem)</p>
 
             </div>
             <div className="line"></div>
@@ -147,8 +146,7 @@ function Home() {
                 <h2>Higher Secondary in Computer Science</h2>
                 <h3>Kongu Vellalar Mat.Hr.Sec School</h3>
                  <h4>2021-2022</h4> 
-                <p>I completed my 12th grade  on Computer Science, with a score of 85%. This foundation fueled my passion for technology </p>
-                  <p>and programming. It laid the groundwork for my journey into software development and innovation.</p>
+                <p>I completed my 12th grade  on Computer Science, with a score of 85%. This foundation fueled my passion for technology and programming. It laid the groundwork for my journey into software development and innovation.</p>
 
             </div>
          </div>
